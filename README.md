@@ -1,50 +1,46 @@
-## Todo List Mobile App
+# 📝 Todo List Mobile App
 
-A mobile todo list application built using React Native and Expo that allows users to add, edit, delete, and manage todos. The app supports theme toggling (light/dark) and stores all data in a cloud database using Convex.
+A **mobile todo list application** built using **React Native** and **Expo** that allows users to **add, edit, delete, and manage todos**. The app also supports **theme toggling (light/dark)** and stores all data in a **cloud database** using **Convex**.
 
-Features
+---
 
-Add Todos – Quickly add tasks with a title and optional description.
+## **Features**
 
-Edit Todos – Update your tasks at any time.
+- **Add Todos** – Quickly add tasks with a title and optional description.  
+- **Edit Todos** – Update your tasks anytime.  
+- **Delete Todos** – Remove tasks you no longer need.  
+- **Theme Toggle** – Switch between **light and dark mode**.  
+- **Persistent Storage** – Todos are saved in a **cloud database** to sync across devices.  
+- **Responsive UI** – Mobile-first design using React Native.
 
-Delete Todos – Remove tasks you no longer need.
+---
 
-Theme Toggle – Switch between light and dark mode for a better visual experience.
+## **Tech Stack**
 
-Persistent Storage – Todos are saved in a cloud database (Convex) to sync across devices.
+- **Frontend:** React Native, Expo  
+- **Backend & Database:** Convex (Serverless, real-time database)  
+- **State Management:** React Hooks / Context API  
+- **UI & Styling:** Tailwind CSS (via `tailwind-rn`) or React Native `StyleSheet`  
+- **Other Features:** Theme toggling, local state management
 
-Responsive UI – Built with mobile-first design principles using React Native.
+---
 
-Tech Stack
+## **Screenshots**
 
-Frontend: React Native, Expo
+_Add screenshots of your app here_  
 
-Backend & Database: Convex (Serverless, real-time database)
+- **Light Mode**  
+- **Dark Mode**  
+- **Add Todo Screen**  
+- **Edit Todo Screen**
 
-State Management: React Hooks / Context API
+---
 
-UI & Styling: Tailwind CSS (via tailwind-rn) or StyleSheet
+## **Installation**
 
-Other Features: Theme toggling, local state management for UI responsiveness
+1. **Clone the repository:**
 
-Screenshots
-
-Add screenshots of your app here
-Example:
-
-Light Mode
-
-Dark Mode
-
-Add Todo Screen
-
-Edit Todo Screen
-
-Installation
-
-Clone the repository:
-
+```bash
 git clone https://github.com/yourusername/todo-app.git
 cd todo-app
 
