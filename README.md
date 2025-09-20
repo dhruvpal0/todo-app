@@ -1,4 +1,4 @@
-Todo List Mobile App
+## Todo List Mobile App
 
 A mobile todo list application built using React Native and Expo that allows users to add, edit, delete, and manage todos. The app supports theme toggling (light/dark) and stores all data in a cloud database using Convex.
 
