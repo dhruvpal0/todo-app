@@ -1,50 +1,127 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Todo List Mobile App
 
-## Get started
+A mobile todo list application built using React Native and Expo that allows users to add, edit, delete, and manage todos. The app supports theme toggling (light/dark) and stores all data in a cloud database using Convex.
 
-1. Install dependencies
+Features
 
-   ```bash
-   npm install
-   ```
+Add Todos – Quickly add tasks with a title and optional description.
 
-2. Start the app
+Edit Todos – Update your tasks at any time.
 
-   ```bash
-   npx expo start
-   ```
+Delete Todos – Remove tasks you no longer need.
 
-In the output, you'll find options to open the app in a
+Theme Toggle – Switch between light and dark mode for a better visual experience.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Persistent Storage – Todos are saved in a cloud database (Convex) to sync across devices.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Responsive UI – Built with mobile-first design principles using React Native.
 
-## Get a fresh project
+Tech Stack
 
-When you're ready, run:
+Frontend: React Native, Expo
 
-```bash
-npm run reset-project
-```
+Backend & Database: Convex (Serverless, real-time database)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+State Management: React Hooks / Context API
 
-## Learn more
+UI & Styling: Tailwind CSS (via tailwind-rn) or StyleSheet
 
-To learn more about developing your project with Expo, look at the following resources:
+Other Features: Theme toggling, local state management for UI responsiveness
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Screenshots
 
-## Join the community
+Add screenshots of your app here
+Example:
 
-Join our community of developers creating universal apps.
+Light Mode
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Dark Mode
+
+Add Todo Screen
+
+Edit Todo Screen
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/yourusername/todo-app.git
+cd todo-app
+
+
+Install dependencies:
+
+npm install
+# or
+yarn install
+
+
+Start Expo:
+
+expo start
+
+
+Run on a device/emulator:
+
+Use the Expo Go app on your mobile device
+
+Or run on Android/iOS emulator from your computer
+
+Usage
+
+Open the app on your device.
+
+Add a new todo using the Add button.
+
+Edit an existing todo by tapping it.
+
+Delete a todo by swiping or using the delete button.
+
+Toggle between light and dark mode from the Theme button.
+
+Database & Backend (Convex)
+
+The app uses Convex for real-time cloud storage.
+
+All todos are synced automatically across devices.
+
+Convex functions are used for CRUD operations (Create, Read, Update, Delete).
+
+Folder Structure
+/todo-app
+│
+├─ /assets          # Images, icons, fonts
+├─ /components      # Reusable UI components (Button, TodoItem, Header)
+├─ /screens         # App screens (Home, AddTodo, EditTodo, Settings)
+├─ /convex          # Convex database functions and queries
+├─ App.js           # Entry point
+└─ package.json
+
+Future Enhancements
+
+Notifications for upcoming tasks
+
+Categories or tags for todos
+
+Offline-first functionality
+
+Drag-and-drop reordering of todos
+
+Contributing
+
+Contributions are welcome!
+
+Fork the repository
+
+Create a feature branch (git checkout -b feature-name)
+
+Commit your changes (git commit -m "Add feature")
+
+Push to the branch (git push origin feature-name)
+
+Open a Pull Request
+
+License
+
+This project is licensed under the MIT License.
