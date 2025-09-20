@@ -4,63 +4,39 @@ Todo List Mobile App
 A mobile todo list application built using React Native and Expo that allows users to add, edit, delete, and manage todos. The app supports theme toggling (light/dark) and stores all data in a cloud database using Convex.
 
 Features
-
 Add Todos – Quickly add tasks with a title and optional description.
-
 Edit Todos – Update your tasks at any time.
-
 Delete Todos – Remove tasks you no longer need.
-
 Theme Toggle – Switch between light and dark mode for a better visual experience.
-
 Persistent Storage – Todos are saved in a cloud database (Convex) to sync across devices.
-
 Responsive UI – Built with mobile-first design principles using React Native.
 
 Tech Stack
-
-Frontend: React Native, Expo
-
+Frontend:React Native, Expo
 Backend & Database: Convex (Serverless, real-time database)
-
 State Management: React Hooks / Context API
-
 UI & Styling: Tailwind CSS (via tailwind-rn) or StyleSheet
-
 Other Features: Theme toggling, local state management for UI responsiveness
-
 Screenshots
-
 Add screenshots of your app here
 Example:
-
 Light Mode
-
 Dark Mode
-
 Add Todo Screen
-
 Edit Todo Screen
-
 Installation
 
 Clone the repository:
-
 git clone https://github.com/yourusername/todo-app.git
 cd todo-app
 
-
 Install dependencies:
-
 npm install
 # or
 yarn install
 
-
 Start Expo:
-
 expo start
-
 
 Run on a device/emulator:
 
